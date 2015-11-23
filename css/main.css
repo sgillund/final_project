@@ -95,9 +95,130 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Globals */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    background-color: #252729;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+/* Header */
+
+.logo {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
 
 
+/* Page Section - Image List */
 
+.project-thumb {
+    width: 30%;
+    float: left;
+    border: 3px solid #252729;
+    position: relative;
+}
+
+.project-thumb img {
+    position: relative;
+    z-index: -10;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+    color: #000;
+}
+
+/* Page Section - About */
+
+.headshot {
+    float: left;
+    max-width: 30%;
+    margin: 0 3em 23em 0;
+}
+
+.right-column {
+    float: right;
+}
+
+.page-section p {
+    margin-right: 3em;
+    color: #c7cdd4;
+}
+
+.page-section table {
+    margin-top: 1em;
+}
+
+.page-section table th{
+    padding: 0 2.5em 0 0;
+    text-align: left; 
+}
+
+.page-section table td{
+    padding: 0 2.5em 0 0;
+    color: #c7cdd4;
+}
+
+.line_grey {
+    padding: 0;
+    width: 4%;
+}
+
+.page-section li {
+    border: 1px solid #636c75;
+    text-align: center;
+    padding: 1em;
+    margin: .2em;
+    width: 20%;
+    float: left;
+}
+
+.page-section a {
+    color: #c7cdd4;
+}
+
+/* Footer */
+
+.page-footer {
+    clear: both;
+    color: #636c75;
+    text-align: right;
+    font-size: .7em;
+    padding: 1em;
+}
 
 
 
