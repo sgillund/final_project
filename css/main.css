@@ -108,10 +108,15 @@ img {
     max-width: 100%
 }
 
+@font-face {
+    font-family: "Karla";
+    src: url("fonts/Karla-Regular.ttf");
+}
+
 body {
+    font-family: "Karla", sans-serif;
     background-color: #252729;
     color: #fff;
-    font-family: Helvetica, Arial, sans-serif;
     padding-left: 6em;
 }
 
@@ -213,7 +218,7 @@ h2 {
 .page-section li {
     border: 1px solid #636c75;
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
     margin: .2em;
     width: 20%;
     float: left;
