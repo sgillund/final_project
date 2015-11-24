@@ -112,6 +112,7 @@ body {
     background-color: #252729;
     color: #fff;
     font-family: Helvetica, Arial, sans-serif;
+    padding-left: 6em;
 }
 
 a {
@@ -132,15 +133,27 @@ h2 {
 
 .logo {
     width: 40%;
-    margin: auto;
+    display: block;
+    margin: 4em auto 3em auto;
     padding: 10px;
+}
+
+.main-nav {
+    background-color: #252729;
+    display: block;
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 
 /* Page Section - Image List */
 
 .project-thumb {
-    width: 30%;
+    width: 33%;
     float: left;
     border: 3px solid #252729;
     position: relative;
@@ -174,7 +187,7 @@ h2 {
 }
 
 .page-section p {
-    margin-right: 3em;
+    margin-right: 1em;
     color: #c7cdd4;
 }
 
