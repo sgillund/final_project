@@ -140,7 +140,7 @@ h2 {
     width: 40%;
     display: block;
     margin: 4em auto 3em auto;
-    padding: 10px;
+    padding: 2em;
 }
 
 .main-nav {
@@ -160,7 +160,7 @@ h2 {
 .project-thumb {
     width: 33%;
     float: left;
-    border: 3px solid #252729;
+    border: 4px solid #252729;
     position: relative;
 }
 
@@ -177,6 +177,34 @@ h2 {
     margin: 0;
     text-align: center;
     color: #000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.caption h3{
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+}
+
+.caption p{
+    margin: 0;
+    color: white;
+}
+
+.project-thumb:hover {
+    background-color: hsla(0, 0%, 0%, .5)
+}
+
+.project-thumb:hover .caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+.line {
+    padding: 0;
+    width: 30%;
+}
 }
 
 /* Page Section - About */
