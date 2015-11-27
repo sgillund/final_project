@@ -203,8 +203,7 @@ h2 {
 
 .line {
     padding: 0;
-    width: 30%;
-}
+    width: 25%;
 }
 
 /* Page Section - About */
@@ -240,7 +239,7 @@ h2 {
 
 .line_grey {
     padding: 0;
-    width: 4%;
+    width: 3%;
 }
 
 .page-section li {
@@ -265,17 +264,6 @@ h2 {
     font-size: .7em;
     padding: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
