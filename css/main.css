@@ -110,7 +110,7 @@ img {
 
 @font-face {
     font-family: "Karla";
-    src: url("fonts/Karla-Regular.ttf");
+    src: url("../fonts/Karla-Regular.ttf");
 }
 
 body {
@@ -130,8 +130,9 @@ ul {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.6em;
     margin-bottom: 0;
+    letter-spacing: 1px;
 }
 
 /* Header */
@@ -177,6 +178,14 @@ h2 {
     margin-left: .5em;
 }
 
+.main-nav a{
+    color:#c7cdd4;
+}
+
+.main-nav a:hover{
+    color: #fff;
+}
+
 
 /* Page Section - Image List */
 
@@ -212,13 +221,14 @@ h2 {
 
 .caption h3{
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0;
 }
 
-.caption p{
+.page-section .caption p{
     margin: 0;
-    color: white;
+    color: #fff;
+    font-size: 1.1em;
 }
 
 .project-thumb:hover {
@@ -268,10 +278,12 @@ h2 {
 .page-section p {
     margin-right: 1em;
     color: #c7cdd4;
+    font-size: 1.1em;
 }
 
 .page-section table {
     margin-top: 1em;
+    font-size: 1.1em;
 }
 
 .page-section table th{
