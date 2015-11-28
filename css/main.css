@@ -180,13 +180,19 @@ h2 {
 .project-thumb {
     width: 33%;
     float: left;
-    border: 4px solid #252729;
+    border: 3px solid #252729;
     position: relative;
 }
 
 .project-thumb img {
     position: relative;
     z-index: -10;
+    -webkit-transition: all 4s ease; /* Safari and Chrome */
+    -moz-transition: all 4s ease; /* Firefox */
+    -o-transition: all 4s ease; /* IE 9 */
+    -ms-transition: all 4s ease; /* Opera */
+    transition: all 4s ease;
+    max-width: 100%;
 }
 
 .caption {
@@ -221,6 +227,20 @@ h2 {
     opacity: 1;
 }
 
+.project-thumb:hover img{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.zoom{
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+
 .line {
     padding: 0;
     width: 25%;
@@ -228,10 +248,14 @@ h2 {
 
 /* Page Section - About */
 
+.page-section {
+    margin-top: 5em;
+}
+
 .headshot {
     float: left;
     max-width: 30%;
-    margin: 0 3em 23em 0;
+    margin: 0em 5em 23em 0;
 }
 
 .right-column {
