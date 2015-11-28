@@ -145,13 +145,33 @@ h2 {
 
 .main-nav {
     background-color: #252729;
+    position: fixed;
     display: block;
     height: 100%;
-    width: 70px;
-    position: fixed;
+    width: 40px;
     top: 0;
     left: 0;
     z-index: 999;
+}
+
+.main-nav li{
+    padding: .5em 0em .5em 0em;
+    margin-top: 10em;
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 
