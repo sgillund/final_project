@@ -268,11 +268,7 @@ h2 {
 .headshot {
     float: left;
     max-width: 30%;
-    margin: 0em 5em 23em 0;
-}
-
-.right-column {
-    float: right;
+    margin: 0em 5em 25em 0;
 }
 
 .page-section p {
@@ -325,7 +321,7 @@ h2 {
 /* Footer */
 
 .page-footer {
-    clear: both;
+    clear: left;
     color: #636c75;
     font-size: .7em;
     text-align: right;
