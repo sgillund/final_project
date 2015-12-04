@@ -146,10 +146,11 @@ h2 {
 
 .main-nav {
     background-color: #252729;
+    font-size: 1.1em;
     position: fixed;
     display: block;
     height: 100%;
-    width: 40px;
+    width: 10px;
     top: 0;
     left: 0;
     z-index: 999;
@@ -157,6 +158,7 @@ h2 {
 
 .main-nav li{
     margin-top: 9em;
+    line-height: 0;
 
     /* Safari */
     -webkit-transform: rotate(-90deg);
@@ -175,11 +177,15 @@ h2 {
 }
 
 .main-nav i{
-    margin-left: .5em;
+    margin-left: .3em;
 }
 
 .main-nav a{
     color:#c7cdd4;
+}
+
+.main-nav a i{
+    color:#6a6e73;
 }
 
 .main-nav a:hover{
@@ -256,19 +262,19 @@ h2 {
 
 .line {
     padding: 0;
-    width: 25%;
+    width: 20%;
 }
 
 /* Page Section - About */
 
 .page-section {
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .headshot {
     float: left;
     max-width: 30%;
-    margin: 0em 5em 25em 0;
+    margin: 0em 6em 25em 0;
 }
 
 .page-section p {
@@ -283,7 +289,7 @@ h2 {
 }
 
 .page-section table th{
-    padding: 0 2.5em 0 0;
+    padding: 0 3em 0 0;
     text-align: left; 
 }
 
@@ -298,16 +304,17 @@ h2 {
 }
 
 .page-section li {
-    border: 1px solid #636c75;
+    border: 1px solid #6a6e73;
     text-align: center;
-    padding: 1.5em;
+    font-size: 1.1em;
+    padding: 1.1em;
     margin: .2em;
     width: 20%;
     float: left;
 }
 
 .page-section li:hover {
-    background: #636c75;
+    background: #6a6e73;
 }
 
 .page-section a {
@@ -322,10 +329,13 @@ h2 {
 
 .page-footer {
     clear: left;
-    color: #636c75;
-    font-size: .7em;
+    font-size: .8em;
     text-align: right;
-    padding: 1em;
+    padding: 5em 3em 3em 3em;
+}
+
+.page-footer p{
+    color: #6a6e73;
 }
 
 
