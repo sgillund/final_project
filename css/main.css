@@ -140,7 +140,7 @@ h2 {
 .logo {
     width: 40%;
     display: block;
-    margin: 4em auto 3em auto;
+    margin: 5em auto 3em auto;
     padding: 2em;
 }
 
@@ -157,7 +157,7 @@ h2 {
 }
 
 .main-nav li{
-    margin-top: 9em;
+    margin-top: 11em;
     line-height: 0;
 
     /* Safari */
@@ -173,7 +173,7 @@ h2 {
     -o-transform: rotate(-90deg);
 
     /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
 }
 
 .main-nav i{
